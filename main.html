@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Spectrum Display (dB Meter)</title>
+    <link href="https://fonts.cdnfonts.com/css/frutiger" rel="stylesheet">
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+<body>
+    <p>Frutiger</p>
+    <button class="play-button" id="playButton">
+        <img src="images/play-button.png" alt="Play" id="playPauseIcon">
+    </button>      
+    <input type="file" id="fileInput" accept="audio/*">
+    <audio id="audio" controls></audio>
+    <div id="spectrum"></div>
+    <script src="audioscript.js"></script>
+</body>
+</html>
